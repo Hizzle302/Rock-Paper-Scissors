@@ -1,0 +1,143 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    background-color: lightslategray;
+}
+
+header {
+    background: lightblue;
+    padding: 20px;
+}
+
+header > h1 {
+    color: red;
+    text-align: center;
+    font-family:  sans-serif;
+}
+
+.score-board {
+    margin: 20px auto;
+    border: 3px solid red;
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    color: white;
+    font-size: 46px;
+    padding: 15px 20px;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.badge {
+    background: magenta;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: sans-serif;
+}
+
+#user-label {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+#computer-label {
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+
+.result {
+    font-size: 40px;
+    color: white;
+}
+
+.result > p {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.picks {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.pick {
+    margin: 0 20px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.pick:hover {
+    cursor: pointer;
+}
+
+#move-message {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
